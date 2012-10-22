@@ -1,0 +1,67 @@
+body {
+	background-color: #333;
+	color: #fff;
+	font-family: arial;
+}
+
+#pingdom {
+	display: inline-block;
+}
+
+.check li {
+	float: left;
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 5px;
+}
+
+.check {
+	padding: 4px;
+	margin: 0;
+	border-bottom: 1px dotted #666;
+}
+
+.check li:last-child {
+	float: none;
+}
+
+/* status indicators */
+
+.status {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #ff0;
+	margin: 3px;
+}
+
+.status-up {
+	background-color: #0f0;
+}
+
+.status-down {
+	background-color: #f00;
+}
+
+/* field specific styling */
+
+.field-name {
+	width: 100px;
+	text-align: center;
+}
+
+.field-lasterrortime,
+.field-lasttesttime {
+	width: 150px;
+}
+
+.field-lastresponsetime {
+	width: 60px;
+	text-align: right;
+}
+
+.field-status {
+	width: 20px;
+}
+
