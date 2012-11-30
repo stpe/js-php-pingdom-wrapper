@@ -19,7 +19,7 @@ var pingdom = (function($) {
 			return;
 		}
 
-		var ul = $('<div/>')
+		ul = $('<div/>')
 		// display checks
 		for (i = 0; i < data.checks.length; i++) {
 			check = data.checks[i];
