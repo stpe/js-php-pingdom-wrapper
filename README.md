@@ -21,4 +21,4 @@ Depends on jQuery and DateJS, but that's just for convenience.
 
 Just a preview of current look...
 
-![Just an example...](https://github.com/stpe/php-pingdom-wrapper/raw/master/demo/preview.png "php-pingdom-wrapper preview")
+![Just an example...](https://github.com/stpe/js-php-pingdom-wrapper/raw/master/demo/preview.png "php-pingdom-wrapper preview")
